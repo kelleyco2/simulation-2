@@ -39,7 +39,6 @@ class Dashboard extends Component {
 
     render() {
         let houses = this.state.houses.map((house, i) => {
-            console.log(house)
             return(
                 <div key={i}>
                         <House 
@@ -50,8 +49,8 @@ class Dashboard extends Component {
                         zip={house.zip}
                         id={house.id}
                         img={house.img}
-                        monthlyMortgage={house.monthlyMortgage}
-                        desiredRent={house.desiredRent}
+                        monthlyMortgage={house.monthly_mortgage}
+                        desiredRent={house.desired_rent}
                         deleteHouse={this.deleteHouse}/>
                     </div>
                 )

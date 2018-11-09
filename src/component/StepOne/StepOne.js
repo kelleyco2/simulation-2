@@ -31,7 +31,7 @@ class StepOne extends Component {
             name: this.props.name,
             address: this.props.address,
             city: this.props.city,
-            state: this.props.sate,
+            state: this.props.state,
             zip: this.props.zip
         })
     }

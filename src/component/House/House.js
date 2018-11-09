@@ -1,7 +1,6 @@
 import React from 'react'
 
 function House(props) {
-    console.log(props)
     return(
         <div>
             <img src={`${props.img}`} alt=''/><br/>
